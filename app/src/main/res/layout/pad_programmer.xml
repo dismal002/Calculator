@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2014 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<com.dismal.calculator.CalculatorPadLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pad_programmer"
+    style="@style/PadLayoutStyle.Advanced"
+    android:background="@color/pad_advanced_background_color">
+
+    <Button
+        android:id="@+id/digit_a"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/digit_a" />
+
+    <Button
+        android:id="@+id/digit_b"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/digit_b" />
+
+    <Button
+        android:id="@+id/digit_c"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/digit_c" />
+
+    <Button
+        android:id="@+id/digit_d"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/digit_d" />
+
+    <Button
+        android:id="@+id/digit_e"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/digit_e" />
+
+    <Button
+        android:id="@+id/digit_f"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/digit_f" />
+
+    <Button
+        android:id="@+id/op_and"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/op_and" />
+
+    <Button
+        android:id="@+id/op_or"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/op_or" />
+
+    <Button
+        android:id="@+id/op_xor"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/op_xor" />
+
+    <Button
+        android:id="@+id/base_bin"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/base_bin" />
+
+    <Button
+        android:id="@+id/base_hex"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/base_hex" />
+
+    <Button
+        android:id="@+id/base_dec"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/base_dec" />
+
+    <Button
+        android:id="@+id/lparen"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/lparen" />
+
+    <Button
+        android:id="@+id/rparen"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick"
+        android:text="@string/rparen" />
+
+    <Button
+        android:id="@+id/toggle_programmer"
+        style="@style/PadButtonStyle.Advanced"
+        android:onClick="onButtonClick" />
+
+</com.dismal.calculator.CalculatorPadLayout>
